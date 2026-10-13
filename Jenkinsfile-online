@@ -13,9 +13,9 @@ pipeline {
         DOCKER_CREDENTIAL_ID = 'dockerhub-id'
         GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'docker_username' // change me
-        GITHUB_ACCOUNT = 'kubesphere' // change me
+        REGISTRY = '192.168.1.154'
+        DOCKERHUB_NAMESPACE = 'ks-devops-harbor' // change me
+        GITHUB_ACCOUNT = 'git-betsyg' // change me
         APP_NAME = 'devops-maven-sample'
         SONAR_CREDENTIAL_ID = 'sonar-token'
     }
